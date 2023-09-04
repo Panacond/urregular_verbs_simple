@@ -1,3 +1,8 @@
+# link to table
+
+[urregular_verbs_simple](https://panacond.github.io/urregular_verbs_simple/)
+## some example
+
 <div class="container mt-3 my_1">
     <details>
         <summary>Can you show me the car park here?</summary>
@@ -9,6 +14,7 @@
     </details>
 </div>
 
+<style>
 details {
   border: 1px solid #aaa;
   border-radius: 4px;
@@ -29,3 +35,4 @@ details[open] summary {
   border-bottom: 1px solid #aaa;
   margin-bottom: 0.5em;
 }
+</style>
