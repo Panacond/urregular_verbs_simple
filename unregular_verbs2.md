@@ -1,58 +1,184 @@
  I | II | III | translate
 ---|---|---|---
-be | was | been | быть, находиться
-bear | bore | born | выносить, рождать ⭐⭐
-beat | beat | beaten | бить, лупить
-become | became | become | становиться
-begin | began | begun | начинать
-bend | bent | bent | сгибаться ⭐⭐
-bet | bet | bet | биться об заклад ⭐⭐
-bite | bit | bitten | кусать
+be [bi:] | was [wɔːz] | been [bi:n] | быть, находиться
+
+- It is funny
+- It was funny
+
+ I | II | III | translate
+---|---|---|---
+bear [beə] | bore [bɔː] | borne [bɔːn]| выносить, рождать 
+
+- The road bears to the right - дорога идет влево
+- The road bore to the right 
+
+ I | II | III | translate
+---|---|---|---
+beat [bi:t] | beat [bi:t] | beaten [bi:tn] | бить, лупить
+
+- he beat egg - он взбил яйца 
+
+ I | II | III | translate
+---|---|---|---
+become [bi’kʌm] | became [bi’keɪm] | become [bi’kʌm] | становиться
+
+- I become thin - Я худею
+- I became angry - Я злился
+
+ I | II | III | translate
+---|---|---|---
+begin [bi’gin] | began [bi’gæn] | begun [bi’gʌn] | начинать
+
+- Parents begin caring for their child - Родители начинают лечить ребенка
+- Parents began caring for their child
+
+ I | II | III | translate
+---|---|---|---
+bite [bait] | bit [bit] | bitten [bitn] | кусать
 
 - Suddenly, the dog jump and bite my leg.
 - Suddenly, the animal jumped and bit my hand.
 
+blow [blou] | blew [blu:] | blown [bloun] | дуть
+
+- It blow wond
+- It blew wind
+
  I | II | III | translate
 ---|---|---|---
-bind | bound | bound | привязывать ⭐⭐
-blow | blew | blown | дуть
-break | broke | broken | ломать, разрушать
+break [breik] | broke [brouk] | broken [broukn] | ломать, разрушать
 
 - I break beams every day.
 - When  I was ten years old, I broke my arm.
 
  I | II | III | translate
 ---|---|---|---
-broadcast | broadcast | broadcast | транслировать ⭐⭐
-bleed | bled | bled | кровоточить ⭐⭐
-bring | brought | brought | приносить ⭐⭐
-burn | burnt | burnt | гореть, жечь
-build | built | built | строить 
-buy | bought | bought | покупать
+bring [briŋ] | brought [brɔːt] |  brought [brɔːt] | привозить, приносить
+
+- you bring items
+- you brought items
+
+ I | II | III | translate
+---|---|---|---
+broadcast ['brɔːdka:st] | broadcast ['brɔːdka:st] | broadcast ['brɔːdka:st] | транслировать
+
+- NASA broadcast all the activities live - НАСА транслирует все мероприятия в прямом эфире
+
+---
+
+ I | II | III | translate
+---|---|---|---
+build [bild] | built [bilt] | built [bilt] | строить
+
+- You build house
+- You built house
+
+ I | II | III | translate
+---|---|---|---
+bend | bent | bent | сгибаться
+
+- he bends a branch
+- he bent a branch
+
+ I | II | III | translate
+---|---|---|---
+burn [bɜːn] | burnt [bɜːnt] | burnt [bɜːnt] | гореть, пылать, жечь
+
+- I burn a fire
+- I burnt a fire
+
+ I | II | III | translate
+---|---|---|---
+bet | bet | bet | биться об заклад
+
+- He bet with her about a horse
+
+ I | II | III | translate
+---|---|---|---
+bind | bound | bound | привязывать
+
+- the logs were bind together with ropes
+- the logs were bound together with ropes - бревна были связаны веревками
+
+ I | II | III | translate
+---|---|---|---
+bleed | bled | bled | кровоточить
+
+- his wound is bleed - его рана кровоточит
+- his wound is bled
+
+ I | II | III | translate
+---|---|---|---
+buy [bai] | bought [bɔːt] | bought [bɔːt] | покупать
 
 - My neighbor buys a bread once a week
 - My neighbor bought a new car last week
 
  I | II | III | translate
 ---|---|---|---
-catch | caught | caught | ловить
+catch [kætʃ] | caught [kɔːt] | caught [kɔːt] | ловить, поймать, схватывать
 
 - Fisherman catches a fish
 - The police caught all three of the bank robbers last week
 
  I | II | III | translate
 ---|---|---|--
-choose | shose | shosen | выбирать
-cling | clung | clung | цепляться, прилиплять ⭐⭐
-come | came | come | приходить
-cost | cost | cost | стоить ⭐
-cut | cut | cut | резать
-deal | dealt | dealt | иметь дело ⭐⭐
-dig | dug | dug | копать ⭐⭐
-do | did | done | делать, выполнять
+choose [tʃu:z] | chose [tʃouz] | chosen [tʃouzn] | выбирать, избирать
+
+- he chooses a seat facing the door
+- he chose a seat facing the door - он выбрал место лицом к двери
+
+ I | II | III | translate
+---|---|---|--
+cling | clung | clung | цепляться, прилиплять
+
+- She clings to Joe's arm
+- She clung to Joe's arm - Она вцепилась в руку Джо
+
+ I | II | III | translate
+---|---|---|--
+come [kʌm] | came [keim] | come [kʌm] | приходить
+
+- They come to a river
+- They came to a river
+
+ I | II | III | translate
+---|---|---|--
+cost [kɔst] | cost [kɔst] | cost [kɔst] | стоить
+
+- It costs too much
+- It cost too much
+- How much does it cost?
+
+ I | II | III | translate
+---|---|---|--
+cut [kʌt] | cut [kʌt] | cut [kʌt] | резать, стричь, рубить
+
+- She cuts bread
+- she cut bread
+
+ I | II | III | translate
+---|---|---|--
+deal | dealt | dealt | иметь дело
+
+- directors  deal in the company's shares - директора торгуют акциями компании
+- directors  dealt in the company's shares
+
+ I | II | III | translate
+---|---|---|--
+dig [dig] | dug [dʌg] | dug [dʌg] | копать, рыть
+
+- He digs a hole - Он копает яму
+- He dug a hole
+
+ I | II | III | translate
+---|---|---|--
+do [du:] | did [did] | done done [dʌn] | делать, выполнять
 
 - First, we do exercise, and then we drink some water.
 - First, we did exercise, and then we drank some water.
+
+---
 
  I | II | III | translate
 ---|---|---|---
@@ -81,6 +207,12 @@ eat | ate | eaten | кушать
  I | II | III | translate
 ---|---|---|---
 fall | fell | felt | падать
+
+- I fall off my bicycle because **I amn't careful**
+- I fell off my bicycle because **I wasn't careful**
+
+ I | II | III | translate
+---|---|---|---
 feed | fed | fed | кормить ⭐⭐
 feel | felt | felt | чувствовать
 fight | fought | fought | драться ⭐⭐
@@ -142,6 +274,12 @@ know | knew | known | знать
 lead | led | led | возглавлять ⭐⭐
 learn | learned/learnt | learned/learnt | учиться (самому)
 leave | left | left | уходить, покидать
+
+- She leave school
+- She left school
+
+ I | II | III | translate
+---|---|---|---
 lend | lent | lent | давать в долг
 let | let | let | позволять
 lie | lay | lain | лежать
@@ -172,6 +310,12 @@ ride | rode | ridden | ехать верхом
 ring | rang | rung | звонить
 rise | rose | risen | подниматься ⭐⭐
 run | ran | run | бегать
+
+- The monkey ran away from the zoo
+- The monkey run away from the zoo
+
+ I | II | III | translate
+---|---|---|---
 say | said | said | сказать
 see | saw | seen | видеть
 
@@ -228,3 +372,10 @@ wear | wore | worn | носить одежду
 weep | wept | wept | рыдать ⭐⭐
 win | won | won | выигрывать
 write | wrote | written | писать
+
+
+<style>
+    table {
+        word-break: break-word;
+    }
+</style>

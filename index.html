@@ -1,1098 +1,1230 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Irregullar verb</title>
     <style>
-        div {
-            display: block;
-        }
-        
-        div div {
-            display: flex;
-        }
-        
-        .head div div {
-            font-weight: bold;
-            background-color: #a8a8a8;
-            justify-content: center;
-        }
-        
-        hr {
-            width: 80%
-        }
-        
+      div {
+        display: block;
+      }
+
+      div div {
+        display: flex;
+      }
+
+      .head div div {
+        font-weight: bold;
+        background-color: #a8a8a8;
+        justify-content: center;
+      }
+
+      hr {
+        width: 80%;
+      }
+
+      div div div {
+        border: 1px solid #000000;
+        padding: 10px;
+      }
+
+      div div div:nth-child(-n + 3) {
+        justify-content: center;
+      }
+
+      body > div:nth-child(even) > div:nth-child(1) div {
+        background-color: #a8a8a8;
+      }
+
+      body > div > div:nth-child(2) {
+        display: none;
+      }
+
+      body > div > div:nth-child(1):hover ~ div {
+        display: block;
+        /* padding: 10px; */
+      }
+
+      body > div > div:nth-child(1):hover > div {
+        background-color: orangered;
+        color: #f2f2f2;
+      }
+
+      @media only screen and (max-width: 600px) {
         div div div {
-            border: 1px solid #000000;
-            padding: 10px;
+          width: 25%;
+          word-break: break-word;
         }
-        
-        div div div:nth-child(-n+3) {
-            justify-content: center;
+      }
+
+      @media only screen and (min-width: 600px) {
+        div div div {
+          width: 150px;
         }
-        
-        body>div:nth-child(even)>div:nth-child(1) div {
-            background-color: #a8a8a8;
-        }
-        
-        body>div>div:nth-child(2) {
-            display: none;
-        }
-        
-        body>div>div:nth-child(1):hover~div {
-            display: block;
-            /* padding: 10px; */
-        }
-        
-        body>div>div:nth-child(1):hover>div {
-            background-color: orangered;
-            color: #f2f2f2;
-        }
-        
-        @media only screen and (max-width: 600px) {
-            div div div {
-                width: 25%;
-                word-break: break-word;
-            }
-        }
-        
-        @media only screen and (min-width: 600px) {
-            div div div {
-                width: 150px;
-            }
-        }
-        
-        .add div div:nth-child(1) {
-            /* background: linear-gradient(45deg, rgba(0, 0, 0, 0) 49.9%, green 49.9%, green 60%, rgba(0, 0, 0, 0) 60%), linear-gradient(-45deg, green 10%, rgba(0, 0, 0, 0) 10%);
+      }
+
+      .add div div:nth-child(1) {
+        /* background: linear-gradient(45deg, rgba(0, 0, 0, 0) 49.9%, green 49.9%, green 60%, rgba(0, 0, 0, 0) 60%), linear-gradient(-45deg, green 10%, rgba(0, 0, 0, 0) 10%);
             background-size: 0.5em 0.5em */
-            text-decoration: underline
-        }
+        text-decoration: underline;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="head">
-        <div>
-            <div>I</div>
-            <div>II</div>
-            <div>III</div>
-            <div>translate</div>
-        </div>
+      <div>
+        <div>I</div>
+        <div>II</div>
+        <div>III</div>
+        <div>translate</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>be [bi:]</div>
+        <div>was [wɔːz]</div>
+        <div>been [bi:n]</div>
+        <div>быть, находиться</div>
+      </div>
+      <div>
+        <ul>
+          <li>It is funny</li>
+          <li>It was funny</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>bear [beə]</div>
+        <div>bore [bɔː]</div>
+        <div>borne [bɔːn]</div>
+        <div>выносить, рождать</div>
+      </div>
+      <div>
+        <ul>
+          <li>The road bears to the right - дорога идет влево</li>
+          <li>The road bore to the right</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>beat [bi:t]</div>
+        <div>beat [bi:t]</div>
+        <div>beaten [bi:tn]</div>
+        <div>бить, лупить</div>
+      </div>
+      <div>
+        <ul>
+          <li>he beat egg - он взбил яйца</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>become [bi’kʌm]</div>
+        <div>became [bi’keɪm]</div>
+        <div>become [bi’kʌm]</div>
+        <div>становиться</div>
+      </div>
+      <div>
+        <ul>
+          <li>I become thin - Я худею</li>
+          <li>I became angry - Я злился</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>begin [bi’gin]</div>
+        <div>began [bi’gæn]</div>
+        <div>begun [bi’gʌn]</div>
+        <div>начинать</div>
+      </div>
+      <div>
+        <ul>
+          <li>
+            Parents begin caring for their child - Родители начинают лечить
+            ребенка
+          </li>
+          <li>Parents began caring for their child</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>bite [bait]</div>
+        <div>bit [bit]</div>
+        <div>bitten [bitn]</div>
+        <div>кусать</div>
+      </div>
+      <div>
+        <ul>
+          <li>Suddenly, the dog jump and bite my leg.</li>
+          <li>Suddenly, the animal jumped and bit my hand.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>blow [blou]</div>
+        <div>blew [blu:]</div>
+        <div>blown [bloun]</div>
+        <div>дуть</div>
+      </div>
+      <div>
+        <ul>
+          <li>It blow wond</li>
+          <li>It blew wind</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>break [breik]</div>
+        <div>broke [brouk]</div>
+        <div>broken [broukn]</div>
+        <div>ломать, разрушать</div>
+      </div>
+      <div>
+        <ul>
+          <li>I break beams every day.</li>
+          <li>When I was ten years old, I broke my arm.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>bring [briŋ]</div>
+        <div>brought [brɔːt]</div>
+        <div>brought [brɔːt]</div>
+        <div>привозить, приносить</div>
+      </div>
+      <div>
+        <ul>
+          <li>you bring items</li>
+          <li>you brought items</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>broadcast ['brɔːdka:st]</div>
+        <div>broadcast ['brɔːdka:st]</div>
+        <div>broadcast ['brɔːdka:st]</div>
+        <div>транслировать</div>
+      </div>
+      <div>
+        <ul>
+          <li>
+            - NASA broadcast all the activities live - НАСА транслирует все
+            мероприятия в прямом эфире
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>build [bild]</div>
+        <div>built [bilt]</div>
+        <div>built [bilt]</div>
+        <div>строить</div>
+      </div>
+      <div>
+        <ul>
+          <li>You build house</li>
+          <li>You built house</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>bend</div>
+        <div>bent</div>
+        <div>bent</div>
+        <div>сгибаться</div>
+      </div>
+      <div>
+        <ul>
+          <li>he bends a branch</li>
+          <li>he bent a branch</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>burn [bɜːn]</div>
+        <div>burnt [bɜːnt]</div>
+        <div>burnt [bɜːnt]</div>
+        <div>гореть, пылать, жечь</div>
+      </div>
+      <div>
+        <ul>
+          <li>I burn a fire</li>
+          <li>I burnt a fire</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>bet</div>
+        <div>bet</div>
+        <div>bet</div>
+        <div>биться об заклад</div>
+      </div>
+      <div>
+        <ul>
+          <li>He bet with her about a horse</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>bind</div>
+        <div>bound</div>
+        <div>bound</div>
+        <div>привязывать</div>
+      </div>
+      <div>
+        <ul>
+          <li>the logs were bind together with ropes</li>
+          <li>
+            the logs were bound together with ropes - бревна были связаны
+            веревками
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>bleed</div>
+        <div>bled</div>
+        <div>dled</div>
+        <div>кровоточить</div>
+      </div>
+      <div>
+        <ul>
+          <li>his wound is bleed - его рана кровоточит</li>
+          <li>his wound is bled</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>buy [bai]</div>
+        <div>bought [bɔːt]</div>
+        <div>bought [bɔːt]</div>
+        <div>покупать</div>
+      </div>
+      <div>
+        <ul>
+          <li>My neighbor buys a bread once a week</li>
+          <li>My neighbor bought a new car last week</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>catch [kætʃ]</div>
+        <div>caught [kɔːt]</div>
+        <div>caught [kɔːt]</div>
+        <div>ловить, поймать, схватывать</div>
+      </div>
+      <div>
+        <ul>
+          <li>Fisherman catches a fish</li>
+          <li>The police caught all three of the bank robbers last week</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>choose [tʃu:z]</div>
+        <div>chose [tʃouz]</div>
+        <div>chosen [tʃouzn]</div>
+        <div>выбирать, избирать</div>
+      </div>
+      <div>
+        <ul>
+          <li>he chooses a seat facing the door</li>
+          <li>
+            he chose a seat facing the door - он выбрал место лицом к двери
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>cling</div>
+        <div>clung</div>
+        <div>clung</div>
+        <div>цепляться, прилиплять</div>
+      </div>
+      <div>
+        <ul>
+          <li>She clings to Joe's arm</li>
+          <li>She clung to Joe's arm - Она вцепилась в руку Джо</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>come [kʌm]</div>
+        <div>came [keim]</div>
+        <div>come [kʌm]</div>
+        <div>приходить</div>
+      </div>
+      <div>
+        <ul>
+          <li>They come to a river</li>
+          <li>They came to a river</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>cost [kɔst]</div>
+        <div>cost [kɔst]</div>
+        <div>cost [kɔst]</div>
+        <div>стоить</div>
+      </div>
+      <div>
+        <ul>
+          <li>It costs too much</li>
+          <li>It cost too much</li>
+          <li>How much does it cost?</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>cut [kʌt]</div>
+        <div>cut [kʌt]</div>
+        <div>cut [kʌt]</div>
+        <div>резать, стричь, рубить</div>
+      </div>
+      <div>
+        <ul>
+          <li>She cuts bread</li>
+          <li>She cut bread</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>deal</div>
+        <div>dealt</div>
+        <div>dealt</div>
+        <div>иметь дело</div>
+      </div>
+      <div>
+        <ul>
+          <li>
+            directors deal in the company's shares - директора торгуют акциями
+            компании
+          </li>
+          <li>directors dealt in the company's shares</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>dig [dig]</div>
+        <div>dug [dʌg]</div>
+        <div>dug [dʌg]</div>
+        <div>копать, рыть</div>
+      </div>
+      <div>
+        <ul>
+          <li>He digs a hole - Он копает яму</li>
+          <li>He dug a hole</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>do [du:]</div>
+        <div>did [did]</div>
+        <div>done done [dʌn]</div>
+        <div>делать, выполнять</div>
+      </div>
+      <div>
+        <ul>
+          <li>First, we do exercise, and then we drink some water.</li>
+          <li>First, we did exercise, and then we drank some water.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>dream</div>
+        <div>dreamt</div>
+        <div>dreamt</div>
+        <div>мечтать, видеть, сны ⭐⭐</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>draw</div>
+        <div>drew</div>
+        <div>drawn</div>
+        <div>рисовать, тащить</div>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>be</div>
-            <div>was</div>
-            <div>been</div>
-            <div>быть, находиться</div>
-        </div>
-        <div>
-            <ul>
-                <li>It is funny</li>
-                <li>It was funny</li>
-            </ul>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>bear</div>
-            <div>bore</div>
-            <div>been</div>
-            <div>выносить, рождать ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>beat</div>
-            <div>beat</div>
-            <div>beaten</div>
-            <div>бить, лупить</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>become</div>
-            <div>became</div>
-            <div>become</div>
-            <div>становиться</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>begin</div>
-            <div>began</div>
-            <div>begun</div>
-            <div>начинать</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>bend</div>
-            <div>bent</div>
-            <div>bent</div>
-            <div>сгибаться ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>bet</div>
-            <div>bet</div>
-            <div>bet</div>
-            <div>биться об заклад ⭐⭐</div>
-        </div>
+      <div>
+        <div>drink</div>
+        <div>drank</div>
+        <div>drunk</div>
+        <div>пить</div>
+      </div>
+      <div>
+        <ul>
+          <li>We drink some water</li>
+          <li>We drank some water</li>
+        </ul>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>bite</div>
-            <div>bit</div>
-            <div>bitten</div>
-            <div>кусать</div>
-        </div>
-        <div>
-            <ul>
-                <li>Suddenly, the dog jump and bite my leg.</li>
-                <li>Suddenly, the animal jumped and bit my hand.</li>
-            </ul>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>bind</div>
-            <div>bound</div>
-            <div>bound</div>
-            <div>привязывать ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>blow</div>
-            <div>blew</div>
-            <div>blown</div>
-            <div>дуть</div>
-        </div>
+      <div>
+        <div>drive</div>
+        <div>drove</div>
+        <div>driven</div>
+        <div>водить машину</div>
+      </div>
+      <div>
+        <ul>
+          <li>Helen drives to work</li>
+          <li>Helen drove to work</li>
+          <li>Did Helen drive to work? Yes, she did.</li>
+        </ul>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>break</div>
-            <div>broke</div>
-            <div>broken</div>
-            <div>ломать, разрушать</div>
-        </div>
-        <div>
-            <ul>
-                <li>I break beams every day.</li>
-                <li>When I was ten years old, I broke my arm.</li>
-            </ul>
-        </div>
+      <div>
+        <div>eat</div>
+        <div>ate</div>
+        <div>eaten</div>
+        <div>кушать</div>
+      </div>
+      <div>
+        <ul>
+          <li>I eat dinner at six o'clock everyday</li>
+          <li>I ate dinner at six o'clock yesterday</li>
+        </ul>
+      </div>
     </div>
     <div>
-        <div>
-            <div>broadcast</div>
-            <div>broadcast</div>
-            <div>broadcast</div>
-            <div>транслировать ⭐⭐</div>
-        </div>
+      <div>
+        <div>fall</div>
+        <div>fell</div>
+        <div>felt</div>
+        <div>падать</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>bleed</div>
-            <div>bled</div>
-            <div>dled</div>
-            <div>кровоточить ⭐⭐</div>
-        </div>
+      <div>
+        <div>feed</div>
+        <div>fed</div>
+        <div>fed</div>
+        <div>кормить ⭐⭐</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>bring</div>
-            <div>brought</div>
-            <div>brought</div>
-            <div>приносить ⭐⭐</div>
-        </div>
+      <div>
+        <div>feel</div>
+        <div>felt</div>
+        <div>felt</div>
+        <div>чувствовать</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>burn</div>
-            <div>burnt</div>
-            <div>burnt</div>
-            <div>гореть, жечь</div>
-        </div>
+      <div>
+        <div>fight</div>
+        <div>fought</div>
+        <div>fought</div>
+        <div>драться ⭐⭐</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>build</div>
-            <div>build</div>
-            <div>build</div>
-            <div>строить</div>
-        </div>
-    </div>
-    <div class="add">
-        <div>
-            <div>buy</div>
-            <div>bought</div>
-            <div>bought</div>
-            <div>покупать</div>
-        </div>
-        <div>
-            <ul>
-                <li>My neighbor buys a bread once a week</li>
-                <li>My neighbor bought a new car last week</li>
-            </ul>
-        </div>
+      <div>
+        <div>find</div>
+        <div>found</div>
+        <div>found</div>
+        <div>находить</div>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>catch</div>
-            <div>caught</div>
-            <div>caught</div>
-            <div>ловить</div>
-        </div>
-        <div>
-            <ul>
-                <li>Fisherman catches a fish</li>
-                <li>The police caught all three of the bank robbers last week</li>
-            </ul>
-        </div>
+      <div>
+        <div>fly</div>
+        <div>flew</div>
+        <div>flown</div>
+        <div>летать</div>
+      </div>
+      <div>
+        <ul>
+          <li>He flies by plane every week.</li>
+          <li>The Wright brothers flew the first airplane in 1903</li>
+        </ul>
+      </div>
     </div>
     <div>
-        <div>
-            <div>choose</div>
-            <div>chose</div>
-            <div>shosen</div>
-            <div>выбирать</div>
-        </div>
+      <div>
+        <div>forbid</div>
+        <div>forbade</div>
+        <div>forbidden</div>
+        <div>запрещать ⭐⭐</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>cling</div>
-            <div>clung</div>
-            <div>clung</div>
-            <div>цепляться, прилиплять ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>come</div>
-            <div>came</div>
-            <div>come</div>
-            <div>приходить</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>cost</div>
-            <div>cost</div>
-            <div>cost</div>
-            <div>стоить ⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>cut</div>
-            <div>cut</div>
-            <div>cut</div>
-            <div>резать</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>deal</div>
-            <div>dealt</div>
-            <div>dealt</div>
-            <div>иметь дело ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>dig</div>
-            <div>dug</div>
-            <div>dug</div>
-            <div>копать ⭐⭐</div>
-        </div>
+      <div>
+        <div>forgive</div>
+        <div>forgave</div>
+        <div>forgiven</div>
+        <div>прощать ⭐⭐</div>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>do</div>
-            <div>did</div>
-            <div>done</div>
-            <div>делать, выполнять</div>
-        </div>
-        <div>
-            <ul>
-                <li>First, we do exercise, and then we drink some water.</li>
-                <li>First, we did exercise, and then we drank some water.</li>
-            </ul>
-        </div>
+      <div>
+        <div>forget</div>
+        <div>forgot</div>
+        <div>forgotten</div>
+        <div>забывать</div>
+      </div>
+      <div>
+        <ul>
+          <li>Unfortunately, I forget my phone number</li>
+          <li>Unfortunately, I forgot to bring my money</li>
+        </ul>
+      </div>
     </div>
     <div>
-        <div>
-            <div>dream</div>
-            <div>dreamt</div>
-            <div>dreamt</div>
-            <div>мечтать, видеть, сны ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>draw</div>
-            <div>drew</div>
-            <div>drawn</div>
-            <div>рисовать, тащить</div>
-        </div>
+      <div>
+        <div>freeze</div>
+        <div>froze</div>
+        <div>frozen</div>
+        <div>замораживать</div>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>drink</div>
-            <div>drank</div>
-            <div>drunk</div>
-            <div>пить</div>
-        </div>
-        <div>
-            <ul>
-                <li>We drink some water</li>
-                <li>We drank some water</li>
-            </ul>
-        </div>
+      <div>
+        <div>get</div>
+        <div>got</div>
+        <div>got</div>
+        <div>получать</div>
+      </div>
+      <div>
+        <ul>
+          <li>Tom usually gets up at six</li>
+          <li>He got up at eight</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>give</div>
+        <div>gave</div>
+        <div>given</div>
+        <div>давать</div>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>drive</div>
-            <div>drove</div>
-            <div>driven</div>
-            <div>водить машину</div>
-        </div>
-        <div>
-            <ul>
-                <li>Helen drives to work</li>
-                <li>Helen drove to work</li>
-                <li>Did Helen drive to work? Yes, she did.</li>
-            </ul>
-        </div>
+      <div>
+        <div>go</div>
+        <div>went</div>
+        <div>gone</div>
+        <div>идти, ходить</div>
+      </div>
+      <div>
+        <ul>
+          <li>They go to Italy on their summer holiday</li>
+          <li>They went to Italy on their last summer holiday</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>grow</div>
+        <div>grew</div>
+        <div>grown</div>
+        <div>расти</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>hang</div>
+        <div>hung</div>
+        <div>hung</div>
+        <div>висеть, вешать ⭐⭐</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>have</div>
+        <div>had</div>
+        <div>had</div>
+        <div>иметь</div>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>eat</div>
-            <div>ate</div>
-            <div>eaten</div>
-            <div>кушать</div>
-        </div>
-        <div>
-            <ul>
-                <li>I eat dinner at six o'clock everyday</li>
-                <li>I ate dinner at six o'clock yesterday</li>
-            </ul>
-        </div>
+      <div>
+        <div>hear</div>
+        <div>heard</div>
+        <div>heard</div>
+        <div>слышать</div>
+      </div>
+      <div>
+        <ul>
+          <li>I hear to funny songs every day</li>
+          <li>
+            I think I heard a strange sound outside the door one minute ago.
+          </li>
+        </ul>
+      </div>
     </div>
     <div>
-        <div>
-            <div>fall</div>
-            <div>fell</div>
-            <div>felt</div>
-            <div>падать</div>
-        </div>
+      <div>
+        <div>hide</div>
+        <div>hid</div>
+        <div>hidden</div>
+        <div>прятаться</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>feed</div>
-            <div>fed</div>
-            <div>fed</div>
-            <div>кормить ⭐⭐</div>
-        </div>
+      <div>
+        <div>hit</div>
+        <div>hit</div>
+        <div>hit</div>
+        <div>бить, поражать</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>feel</div>
-            <div>felt</div>
-            <div>felt</div>
-            <div>чувствовать</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>fight</div>
-            <div>fought</div>
-            <div>fought</div>
-            <div>драться ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>find</div>
-            <div>found</div>
-            <div>found</div>
-            <div>находить</div>
-        </div>
+      <div>
+        <div>hold</div>
+        <div>held</div>
+        <div>held</div>
+        <div>держать (в руках)</div>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>fly</div>
-            <div>flew</div>
-            <div>flown</div>
-            <div>летать</div>
-        </div>
-        <div>
-            <ul>
-                <li>He flies by plane every week.</li>
-                <li>The Wright brothers flew the first airplane in 1903</li>
-            </ul>
-        </div>
+      <div>
+        <div>hurt</div>
+        <div>hurt</div>
+        <div>hurt</div>
+        <div>причинять боль</div>
+      </div>
+      <div>
+        <ul>
+          <li>It really hurt.</li>
+          <li>He hurt a dog last week.</li>
+        </ul>
+      </div>
     </div>
     <div>
-        <div>
-            <div>forbid</div>
-            <div>forbade</div>
-            <div>forbidden</div>
-            <div>запрещать ⭐⭐</div>
-        </div>
+      <div>
+        <div>keep</div>
+        <div>kept</div>
+        <div>kept</div>
+        <div>держать, хранить</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>forgive</div>
-            <div>forgave</div>
-            <div>forgiven</div>
-            <div>прощать ⭐⭐</div>
-        </div>
-    </div>
-    <div class="add">
-        <div>
-            <div>forget</div>
-            <div>forgot</div>
-            <div>forgotten</div>
-            <div>забывать</div>
-        </div>
-        <div>
-            <ul>
-                <li>Unfortunately, I forget my phone number</li>
-                <li>Unfortunately, I forgot to bring my money</li>
-            </ul>
-        </div>
+      <div>
+        <div>know</div>
+        <div>knew</div>
+        <div>known</div>
+        <div>знать</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>freeze</div>
-            <div>froze</div>
-            <div>frozen</div>
-            <div>замораживать</div>
-        </div>
-    </div>
-    <div class="add">
-        <div>
-            <div>get</div>
-            <div>got</div>
-            <div>got</div>
-            <div>получать</div>
-        </div>
-        <div>
-            <ul>
-                <li>Tom usually gets up at six</li>
-                <li>He got up at eight</li>
-            </ul>
-        </div>
+      <div>
+        <div>lead</div>
+        <div>led</div>
+        <div>led</div>
+        <div>возглавлять ⭐⭐</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>give</div>
-            <div>gave</div>
-            <div>given</div>
-            <div>давать</div>
-        </div>
-    </div>
-    <div class="add">
-        <div>
-            <div>go</div>
-            <div>went</div>
-            <div>gone</div>
-            <div>идти, ходить</div>
-        </div>
-        <div>
-            <ul>
-                <li>They go to Italy on their summer holiday</li>
-                <li>They went to Italy on their last summer holiday</li>
-            </ul>
-        </div>
+      <div>
+        <div>learn</div>
+        <div>learnt</div>
+        <div>learnt</div>
+        <div>учиться (самому)</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>grow</div>
-            <div>grew</div>
-            <div>grown</div>
-            <div>расти</div>
-        </div>
+      <div>
+        <div>leave</div>
+        <div>left</div>
+        <div>left</div>
+        <div>уходить, покидать</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>hang</div>
-            <div>hung</div>
-            <div>hung</div>
-            <div>висеть, вешать ⭐⭐</div>
-        </div>
+      <div>
+        <div>lend</div>
+        <div>lent</div>
+        <div>lent</div>
+        <div>давать в долг</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>have</div>
-            <div>had</div>
-            <div>had</div>
-            <div>иметь</div>
-        </div>
+      <div>
+        <div>let</div>
+        <div>let</div>
+        <div>let</div>
+        <div>позволять</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>lie</div>
+        <div>lay</div>
+        <div>lain</div>
+        <div>лежать</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>light</div>
+        <div>lit</div>
+        <div>lit</div>
+        <div>зажигать ⭐⭐</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>lose</div>
+        <div>lost</div>
+        <div>lost</div>
+        <div>терять</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>make</div>
+        <div>made</div>
+        <div>made</div>
+        <div>делать, творить</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>mean</div>
+        <div>meant</div>
+        <div>meant</div>
+        <div>иметь в виду, означать</div>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>hear</div>
-            <div>heard</div>
-            <div>heard</div>
-            <div>слышать</div>
-        </div>
-        <div>
-            <ul>
-                <li>I hear to funny songs every day</li>
-                <li>I think I heard a strange sound outside the door one minute ago.</li>
-            </ul>
-        </div>
+      <div>
+        <div>meat</div>
+        <div>met</div>
+        <div>met</div>
+        <div>встречать</div>
+      </div>
+      <div>
+        <ul>
+          <li>He meets his friend for dinner</li>
+          <li>He met his friend at a restaurant</li>
+        </ul>
+      </div>
     </div>
     <div>
-        <div>
-            <div>hide</div>
-            <div>hid</div>
-            <div>hidden</div>
-            <div>прятаться</div>
-        </div>
+      <div>
+        <div>overcome</div>
+        <div>overcame</div>
+        <div>overcome</div>
+        <div>преодолевать ⭐⭐</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>hit</div>
-            <div>hit</div>
-            <div>hit</div>
-            <div>бить, поражать</div>
-        </div>
+      <div>
+        <div>pay</div>
+        <div>paid</div>
+        <div>paid</div>
+        <div>платить</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>hold</div>
-            <div>held</div>
-            <div>held</div>
-            <div>держать (в руках)</div>
-        </div>
+      <div>
+        <div>put</div>
+        <div>put</div>
+        <div>put</div>
+        <div>ложить</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>quit</div>
+        <div>quit</div>
+        <div>quit</div>
+        <div>бросать, прекращать ⭐⭐</div>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>hurt</div>
-            <div>hurt</div>
-            <div>hurt</div>
-            <div>причинять боль</div>
-        </div>
-        <div>
-            <ul>
-                <li>It really hurt.</li>
-                <li>He hurt a dog last week.</li>
-            </ul>
-        </div>
+      <div>
+        <div>read</div>
+        <div>read</div>
+        <div>read</div>
+        <div>читать</div>
+      </div>
+      <div>
+        <ul>
+          <li>They read this magazin every day.</li>
+          <li>He read book last week</li>
+          <li>How many times did you read that book?</li>
+        </ul>
+      </div>
     </div>
     <div>
-        <div>
-            <div>keep</div>
-            <div>kept</div>
-            <div>kept</div>
-            <div>держать, хранить</div>
-        </div>
+      <div>
+        <div>ride</div>
+        <div>rode</div>
+        <div>ridden</div>
+        <div>ехать верхом</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>know</div>
-            <div>knew</div>
-            <div>known</div>
-            <div>знать</div>
-        </div>
+      <div>
+        <div>ring</div>
+        <div>rang</div>
+        <div>rung</div>
+        <div>звонить</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>lead</div>
-            <div>led</div>
-            <div>led</div>
-            <div>возглавлять ⭐⭐</div>
-        </div>
+      <div>
+        <div>rise</div>
+        <div>rose</div>
+        <div>risen</div>
+        <div>подниматься ⭐⭐</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>learn</div>
-            <div>learnt</div>
-            <div>learnt</div>
-            <div>учиться (самому)</div>
-        </div>
+      <div>
+        <div>run</div>
+        <div>ran</div>
+        <div>run</div>
+        <div>бегать</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>leave</div>
-            <div>left</div>
-            <div>left</div>
-            <div>уходить, покидать</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>lend</div>
-            <div>lent</div>
-            <div>lent</div>
-            <div>давать в долг</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>let</div>
-            <div>let</div>
-            <div>let</div>
-            <div>позволять</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>lie</div>
-            <div>lay</div>
-            <div>lain</div>
-            <div>лежать</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>light</div>
-            <div>lit</div>
-            <div>lit</div>
-            <div>зажигать ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>lose</div>
-            <div>lost</div>
-            <div>lost</div>
-            <div>терять</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>make</div>
-            <div>made</div>
-            <div>made</div>
-            <div>делать, творить</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>mean</div>
-            <div>meant</div>
-            <div>meant</div>
-            <div>иметь в виду, означать</div>
-        </div>
+      <div>
+        <div>say</div>
+        <div>said</div>
+        <div>said</div>
+        <div>сказать</div>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>meat</div>
-            <div>met</div>
-            <div>met</div>
-            <div>встречать</div>
-        </div>
-        <div>
-            <ul>
-                <li>He meets his friend for dinner</li>
-                <li>He met his friend at a restaurant</li>
-            </ul>
-        </div>
+      <div>
+        <div>see</div>
+        <div>saw</div>
+        <div>seen</div>
+        <div>видеть</div>
+      </div>
+      <div>
+        <ul>
+          <li>My family and I see a comedy movie</li>
+          <li>My family and I saw a comedy movie last night</li>
+        </ul>
+      </div>
     </div>
     <div>
-        <div>
-            <div>overcome</div>
-            <div>overcame</div>
-            <div>overcome</div>
-            <div>преодолевать ⭐⭐</div>
-        </div>
+      <div>
+        <div>sell</div>
+        <div>sold</div>
+        <div>sold</div>
+        <div>продавать</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>pay</div>
-            <div>paid</div>
-            <div>paid</div>
-            <div>платить</div>
-        </div>
+      <div>
+        <div>send</div>
+        <div>sent</div>
+        <div>sent</div>
+        <div>посылать</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>put</div>
-            <div>put</div>
-            <div>put</div>
-            <div>ложить</div>
-        </div>
+      <div>
+        <div>set</div>
+        <div>set</div>
+        <div>set</div>
+        <div>устанавливать ⭐⭐</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>quit</div>
-            <div>quit</div>
-            <div>quit</div>
-            <div>бросать, прекращать ⭐⭐</div>
-        </div>
+      <div>
+        <div>shake</div>
+        <div>shook</div>
+        <div>shaken</div>
+        <div>трясти, пожимать ⭐⭐</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>shine</div>
+        <div>shone</div>
+        <div>shone</div>
+        <div>сиять</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>shoot</div>
+        <div>shot</div>
+        <div>shot</div>
+        <div>стрелять ⭐⭐</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>show</div>
+        <div>showed</div>
+        <div>shown</div>
+        <div>показывать</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>shut</div>
+        <div>shut</div>
+        <div>shut</div>
+        <div>закрывать</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>sink</div>
+        <div>sank</div>
+        <div>sunk</div>
+        <div>тонуть ⭐⭐</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>sing</div>
+        <div>sang</div>
+        <div>sung</div>
+        <div>петь</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>sit</div>
+        <div>sat</div>
+        <div>sat</div>
+        <div>сидеть</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>sleep</div>
+        <div>slep</div>
+        <div>slep</div>
+        <div>спать</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>smell</div>
+        <div>smelt</div>
+        <div>smelt</div>
+        <div>чувствовать запах, пахнуть ⭐</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>speak</div>
+        <div>spoke</div>
+        <div>spoken</div>
+        <div>говорить</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>spell</div>
+        <div>spelt</div>
+        <div>spelt</div>
+        <div>произносить по буквам ⭐⭐</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>spend</div>
+        <div>spent</div>
+        <div>spent</div>
+        <div>тратить, проводить</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>spill</div>
+        <div>spilt</div>
+        <div>spilt</div>
+        <div>поливать, разбрызгивать ⭐</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>spoil</div>
+        <div>spoilt</div>
+        <div>spoilt</div>
+        <div>портить ⭐⭐</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>stand</div>
+        <div>stood</div>
+        <div>stood</div>
+        <div>стоять</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>steal</div>
+        <div>stole</div>
+        <div>stole</div>
+        <div>воровать красть ⭐⭐</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>stink</div>
+        <div>stank</div>
+        <div>stunk</div>
+        <div>дурно пахнуть ⭐⭐</div>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>read</div>
-            <div>read</div>
-            <div>read</div>
-            <div>читать</div>
-        </div>
-        <div>
-            <ul>
-                <li>They read this magazin every day.</li>
-                <li>He read book last week</li>
-                <li>How many times did you read that book?</li>
-            </ul>
-        </div>
+      <div>
+        <div>swim</div>
+        <div>swam</div>
+        <div>swum</div>
+        <div>плавать</div>
+      </div>
+      <div>
+        <ul>
+          <li>They swim at the beach everyday.</li>
+          <li>They swam at the beach.</li>
+          <li>Did they swim at the beach? No, they didn't.</li>
+        </ul>
+      </div>
     </div>
     <div>
-        <div>
-            <div>ride</div>
-            <div>rode</div>
-            <div>ridden</div>
-            <div>ехать верхом</div>
-        </div>
+      <div>
+        <div>sweep</div>
+        <div>swept</div>
+        <div>swept</div>
+        <div>подметать ⭐⭐</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>ring</div>
-            <div>rang</div>
-            <div>rung</div>
-            <div>звонить</div>
-        </div>
+      <div>
+        <div>take</div>
+        <div>took</div>
+        <div>taken</div>
+        <div>брать взять</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>rise</div>
-            <div>rose</div>
-            <div>risen</div>
-            <div>подниматься ⭐⭐</div>
-        </div>
+      <div>
+        <div>teach</div>
+        <div>taught</div>
+        <div>taught</div>
+        <div>учить (кого-то)</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>run</div>
-            <div>ran</div>
-            <div>run</div>
-            <div>бегать</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>say</div>
-            <div>said</div>
-            <div>said</div>
-            <div>сказать</div>
-        </div>
+      <div>
+        <div>tear</div>
+        <div>tore</div>
+        <div>torn</div>
+        <div>рвать ⭐⭐</div>
+      </div>
     </div>
     <div class="add">
-        <div>
-            <div>see</div>
-            <div>saw</div>
-            <div>seen</div>
-            <div>видеть</div>
-        </div>
-        <div>
-            <ul>
-                <li>My family and I see a comedy movie</li>
-                <li>My family and I saw a comedy movie last night</li>
-            </ul>
-        </div>
+      <div>
+        <div>tell</div>
+        <div>told</div>
+        <div>told</div>
+        <div>говорить</div>
+      </div>
+      <div>
+        <ul>
+          <li>She tell him about her ideas</li>
+          <li>She told him about her problem</li>
+        </ul>
+      </div>
     </div>
     <div>
-        <div>
-            <div>sell</div>
-            <div>sold</div>
-            <div>sold</div>
-            <div>продавать</div>
-        </div>
+      <div>
+        <div>think</div>
+        <div>thought</div>
+        <div>thought</div>
+        <div>думать</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>send</div>
-            <div>sent</div>
-            <div>sent</div>
-            <div>посылать</div>
-        </div>
+      <div>
+        <div>throw</div>
+        <div>threw</div>
+        <div>thrown</div>
+        <div>бросать</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>set</div>
-            <div>set</div>
-            <div>set</div>
-            <div>устанавливать ⭐⭐</div>
-        </div>
+      <div>
+        <div>understand</div>
+        <div>understood</div>
+        <div>understood</div>
+        <div>понимать ⭐</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>shake</div>
-            <div>shook</div>
-            <div>shaken</div>
-            <div>трясти, пожимать ⭐⭐</div>
-        </div>
+      <div>
+        <div>wake</div>
+        <div>woke</div>
+        <div>woken</div>
+        <div>будить, просыпаться ⭐</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>shine</div>
-            <div>shone</div>
-            <div>shone</div>
-            <div>сиять</div>
-        </div>
+      <div>
+        <div>wear</div>
+        <div>wore</div>
+        <div>worn</div>
+        <div>носить одежду</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>shoot</div>
-            <div>shot</div>
-            <div>shot</div>
-            <div>стрелять ⭐⭐</div>
-        </div>
+      <div>
+        <div>weep</div>
+        <div>wept</div>
+        <div>wept</div>
+        <div>рыдать ⭐⭐</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>show</div>
-            <div>showed</div>
-            <div>shown</div>
-            <div>показывать</div>
-        </div>
+      <div>
+        <div>win</div>
+        <div>won</div>
+        <div>won</div>
+        <div>выигрывать</div>
+      </div>
     </div>
     <div>
-        <div>
-            <div>shut</div>
-            <div>shut</div>
-            <div>shut</div>
-            <div>закрывать</div>
-        </div>
+      <div>
+        <div>write</div>
+        <div>wrote</div>
+        <div>written</div>
+        <div>писать</div>
+      </div>
     </div>
-    <div>
-        <div>
-            <div>sink</div>
-            <div>sank</div>
-            <div>sunk</div>
-            <div>тонуть ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>sing</div>
-            <div>sang</div>
-            <div>sung</div>
-            <div>петь</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>sit</div>
-            <div>sat</div>
-            <div>sat</div>
-            <div>сидеть</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>sleep</div>
-            <div>slep</div>
-            <div>slep</div>
-            <div>спать</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>smell</div>
-            <div>smelt</div>
-            <div>smelt</div>
-            <div>чувствовать запах, пахнуть ⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>speak</div>
-            <div>spoke</div>
-            <div>spoken</div>
-            <div>говорить</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>spell</div>
-            <div>spelt</div>
-            <div>spelt</div>
-            <div>произносить по буквам ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>spend</div>
-            <div>spent</div>
-            <div>spent</div>
-            <div>тратить, проводить</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>spill</div>
-            <div>spilt</div>
-            <div>spilt</div>
-            <div>поливать, разбрызгивать ⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>spoil</div>
-            <div>spoilt</div>
-            <div>spoilt</div>
-            <div>портить ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>stand</div>
-            <div>stood</div>
-            <div>stood</div>
-            <div>стоять</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>steal</div>
-            <div>stole</div>
-            <div>stole</div>
-            <div>воровать красть ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>stink</div>
-            <div>stank</div>
-            <div>stunk</div>
-            <div>дурно пахнуть ⭐⭐</div>
-        </div>
-    </div>
-    <div class="add">
-        <div>
-            <div>swim</div>
-            <div>swam</div>
-            <div>swum</div>
-            <div>плавать</div>
-        </div>
-        <div>
-            <ul>
-                <li>They swim at the beach everyday.</li>
-                <li>They swam at the beach.</li>
-                <li>Did they swim at the beach? No, they didn't.</li>
-            </ul>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>sweep</div>
-            <div>swept</div>
-            <div>swept</div>
-            <div>подметать ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>take</div>
-            <div>took</div>
-            <div>taken</div>
-            <div>брать взять</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>teach</div>
-            <div>taught</div>
-            <div>taught</div>
-            <div>учить (кого-то)</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>tear</div>
-            <div>tore</div>
-            <div>torn</div>
-            <div>рвать ⭐⭐</div>
-        </div>
-    </div>
-    <div class="add">
-        <div>
-            <div>tell</div>
-            <div>told</div>
-            <div>told</div>
-            <div>говорить</div>
-        </div>
-        <div>
-            <ul>
-                <li>She tell him about her ideas</li>
-                <li>She told him about her problem</li>
-            </ul>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>think</div>
-            <div>thought</div>
-            <div>thought</div>
-            <div>думать</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>throw</div>
-            <div>threw</div>
-            <div>thrown</div>
-            <div>бросать</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>understand</div>
-            <div>understood</div>
-            <div>understood</div>
-            <div>понимать ⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>wake</div>
-            <div>woke</div>
-            <div>woken</div>
-            <div>будить, просыпаться ⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>wear</div>
-            <div>wore</div>
-            <div>worn</div>
-            <div>носить одежду</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>weep</div>
-            <div>wept</div>
-            <div>wept</div>
-            <div>рыдать ⭐⭐</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>win</div>
-            <div>won</div>
-            <div>won</div>
-            <div>выигрывать</div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>write</div>
-            <div>wrote</div>
-            <div>written</div>
-            <div>писать</div>
-        </div>
-    </div>
-</body>
-
+  </body>
 </html>
