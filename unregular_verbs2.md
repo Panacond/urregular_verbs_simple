@@ -16,7 +16,7 @@ bear [beə] | bore [bɔː] | borne [bɔːn]| выносить, рождать
 ---|---|---|---
 beat [bi:t] | beat [bi:t] | beaten [bi:tn] | бить, лупить
 
-- he beat egg - он взбил яйца 
+- He beat egg - он взбил яйца 
 
  I | II | III | translate
 ---|---|---|---
@@ -53,10 +53,10 @@ break [breik] | broke [brouk] | broken [broukn] | ломать, разрушат
 
  I | II | III | translate
 ---|---|---|---
-bring [briŋ] | brought [brɔːt] |  brought [brɔːt] | привозить, приносить
+bring [briŋ] | brought [brɔːt] | brought [brɔːt] | привозить, приносить
 
-- you bring items
-- you brought items
+- You bring items
+- You brought items
 
  I | II | III | translate
 ---|---|---|---
@@ -77,8 +77,8 @@ build [bild] | built [bilt] | built [bilt] | строить
 ---|---|---|---
 bend | bent | bent | сгибаться
 
-- he bends a branch
-- he bent a branch
+- He bends a branch
+- He bent a branch
 
  I | II | III | translate
 ---|---|---|---
@@ -97,15 +97,15 @@ bet | bet | bet | биться об заклад
 ---|---|---|---
 bind | bound | bound | привязывать
 
-- the logs were bind together with ropes
-- the logs were bound together with ropes - бревна были связаны веревками
+- The logs were bind together with ropes
+- The logs were bound together with ropes - бревна были связаны веревками
 
  I | II | III | translate
 ---|---|---|---
 bleed | bled | bled | кровоточить
 
-- his wound is bleed - его рана кровоточит
-- his wound is bled
+- His wound is bleed - его рана кровоточит
+- His wound is bled
 
  I | II | III | translate
 ---|---|---|---
@@ -125,8 +125,8 @@ catch [kætʃ] | caught [kɔːt] | caught [kɔːt] | ловить, поймат�
 ---|---|---|--
 choose [tʃu:z] | chose [tʃouz] | chosen [tʃouzn] | выбирать, избирать
 
-- he chooses a seat facing the door
-- he chose a seat facing the door - он выбрал место лицом к двери
+- He chooses a seat facing the door
+- He chose a seat facing the door - он выбрал место лицом к двери
 
  I | II | III | translate
 ---|---|---|--
@@ -155,14 +155,14 @@ cost [kɔst] | cost [kɔst] | cost [kɔst] | стоить
 cut [kʌt] | cut [kʌt] | cut [kʌt] | резать, стричь, рубить
 
 - She cuts bread
-- she cut bread
+- She cut bread
 
  I | II | III | translate
 ---|---|---|--
 deal | dealt | dealt | иметь дело
 
-- directors  deal in the company's shares - директора торгуют акциями компании
-- directors  dealt in the company's shares
+- Directors  deal in the company's shares - директора торгуют акциями компании
+- Directors  dealt in the company's shares
 
  I | II | III | translate
 ---|---|---|--
