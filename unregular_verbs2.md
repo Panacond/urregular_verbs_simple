@@ -1,3 +1,5 @@
+## first ten verbs
+
  I | II | III | translate
 ---|---|---|---
 be [bi:] | was [wɔːz] | been [bi:n] | быть, находиться
@@ -64,6 +66,8 @@ broadcast ['brɔːdka:st] | broadcast ['brɔːdka:st] | broadcast ['brɔːdka:st
 
 - NASA broadcast all the activities live - НАСА транслирует все мероприятия в прямом эфире
 
+## second ten verbs
+
 ---
 
  I | II | III | translate
@@ -122,28 +126,28 @@ catch [kætʃ] | caught [kɔːt] | caught [kɔːt] | ловить, поймат�
 - The police caught all three of the bank robbers last week
 
  I | II | III | translate
----|---|---|--
+---|---|---|---
 choose [tʃu:z] | chose [tʃouz] | chosen [tʃouzn] | выбирать, избирать
 
 - He chooses a seat facing the door
 - He chose a seat facing the door - он выбрал место лицом к двери
 
  I | II | III | translate
----|---|---|--
+---|---|---|---
 cling | clung | clung | цепляться, прилиплять
 
 - She clings to Joe's arm
 - She clung to Joe's arm - Она вцепилась в руку Джо
 
  I | II | III | translate
----|---|---|--
+---|---|---|---
 come [kʌm] | came [keim] | come [kʌm] | приходить
 
 - They come to a river
 - They came to a river
 
  I | II | III | translate
----|---|---|--
+---|---|---|---
 cost [kɔst] | cost [kɔst] | cost [kɔst] | стоить
 
 - It costs too much
@@ -151,47 +155,61 @@ cost [kɔst] | cost [kɔst] | cost [kɔst] | стоить
 - How much does it cost?
 
  I | II | III | translate
----|---|---|--
+---|---|---|---
 cut [kʌt] | cut [kʌt] | cut [kʌt] | резать, стричь, рубить
 
 - She cuts bread
 - She cut bread
 
  I | II | III | translate
----|---|---|--
+---|---|---|---
 deal | dealt | dealt | иметь дело
 
 - Directors  deal in the company's shares - директора торгуют акциями компании
 - Directors  dealt in the company's shares
 
  I | II | III | translate
----|---|---|--
+---|---|---|---
 dig [dig] | dug [dʌg] | dug [dʌg] | копать, рыть
 
 - He digs a hole - Он копает яму
 - He dug a hole
 
  I | II | III | translate
----|---|---|--
+---|---|---|---
 do [du:] | did [did] | done done [dʌn] | делать, выполнять
 
 - First, we do exercise, and then we drink some water.
 - First, we did exercise, and then we drank some water.
 
+## third ten verbs
+
 ---
 
  I | II | III | translate
 ---|---|---|---
-dream | dreamt | dreamt | мечтать, видеть, сны ⭐⭐
-draw | drew | drawn | рисовать, тащить
-drink | drank | drunk | пить
+draw [drɔː] | drew [dru:] | drawn [drɔːn] | рисовать, тащить
+
+- He draws a picture
+- He drew a picture
+
+ I | II | III | translate
+---|---|---|---
+dream [dri:m] | dreamt [dremt] | dreamt [dremt] | мечтать, видеть, сны
+
+- She dreams of going on vacation
+- She dreamed of going on vacation
+
+ I | II | III | translate
+---|---|---|---
+drink [driŋk] | drank [dræŋk] | drunk [drʌŋk] | пить
 
 - We drink some water
 - We drank some water
 
  I | II | III | translate
 ---|---|---|---
-drive | drove | driven | водить машину
+drive [draiv] | drove [drouv] | driven [drivn] | водить машину
 
 - Helen drives to work.
 - Helen drove to work.
@@ -199,24 +217,52 @@ drive | drove | driven | водить машину
 
  I | II | III | translate
 ---|---|---|---
-eat | ate | eaten | кушать
+eat [i:t] | ate [eit] | eaten [i:th] | кушать
 
 - I eat dinner at six o'clock everyday
 - I ate dinner at six o'clock yesterday
 
  I | II | III | translate
 ---|---|---|---
-fall | fell | felt | падать
+fall [fɔːl] | fell [fel] | felt [fɔːln] | падать
 
 - I fall off my bicycle because **I amn't careful**
 - I fell off my bicycle because **I wasn't careful**
 
  I | II | III | translate
 ---|---|---|---
-feed | fed | fed | кормить ⭐⭐
-feel | felt | felt | чувствовать
-fight | fought | fought | драться ⭐⭐
-find | found | found | находить
+feed [fi:d] | fed [fed] | fed [fed] | кормить
+
+- He feed the kitten
+- He fed the kitten 
+
+ I | II | III | translate
+---|---|---|---
+feel [fi:l] | felt [felt] | felt [felt] | чувствовать
+
+- She feel victory
+- She felt victory
+
+ I | II | III | translate
+---|---|---|---
+fight [fait] | fought [fɔːt] | fought [fɔːt] | драться
+
+- They fight with dogs
+- They fought with dogs
+
+ I | II | III | translate
+---|---|---|---
+find [faind] | found [faund] | found [faund] | находить
+
+- He find treasure
+- He found treasure
+
+## fourth ten verbs
+
+---
+
+ I | II | III | translate
+---|---|---|---
 fly | flew | flown | летать
 
 - He flies by plane every week.
