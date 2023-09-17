@@ -263,41 +263,88 @@ find [faind] | found [faund] | found [faund] | находить
 
  I | II | III | translate
 ---|---|---|---
-fly | flew | flown | летать
+fly [flai] | flew [flu:] | flown [floun] | летать
 
 - He flies by plane every week.
 - The Wright brothers flew the first airplane in 1903.
 
  I | II | III | translate
 ---|---|---|---
-forbid | forbade | forbidden | запрещать ⭐⭐
-forgive | forgave | forgiven | прощать ⭐⭐
-forget | forgot | forgotten | забывать
+forbid [fə'bid] | forbade [fə'beid] | forbidden [fə'bidn] | запрещать
+
+- He forbids doing this
+- He forbade doing this
+
+
+ I | II | III | translate
+---|---|---|---
+forget [fə'get] | forgot [fə'gɔt] | forgotten [fə'gɔtn] | забывать
 
 - Unfortunately, I forget my phone number.
 - Unfortunately, I forgot to bring my money.
 
  I | II | III | translate
 ---|---|---|---
-freeze | froze | frozen | замораживать
-get | got | got | получать
+forgive [fə'giv] | forgave [fə'geiv] | forgiven [fə'givn] | прощать
+
+- She forgives him
+- She forgave him
+
+ I | II | III | translate
+---|---|---|---
+freeze [fri:z] | froze [frouz] | frozen [frouzn] | замораживать
+
+- The refrigerator freezes ice
+- The refrigerator froze ice
+
+ I | II | III | translate
+---|---|---|---
+get [get] | got [gɔt] | got [gɔt] | получать
 
 - Tom usually gets up at six
 - He got up at eight
 
  I | II | III | translate
 ---|---|---|---
-give | gave | given | давать
-go | went | gone | идти, ходить
+give [giv] | gave [geiv] | given [givn] | давать
+
+- He gives me a donut
+- He gave me a donut
+
+ I | II | III | translate
+---|---|---|---
+go [gou] | went [went] | gone [gʌn] | идти, ходить
 
 - They go to Italy on their summer holiday
 - They went to Italy on their last summer holiday
 
  I | II | III | translate
 ---|---|---|---
-grow | grew | grown | расти
-hang | hung | hung | висеть, вешать ⭐⭐
-have | had | had | иметь
+grow [grou] | grew [gru:] | grown [groun] | расти
+
+- The tree grows last year
+- The tree grew last year
+
+ I | II | III | translate
+---|---|---|---
+hang [hæŋ] | hung [hʌŋ] | hung [hʌŋ] | висеть, вешать
+
+- He hangs on the horizontal bar
+- He hung on the horizontal bar
+
+ I | II | III | translate
+---|---|---|---
+have [hæv] | had [hæd] | had [hæd] | иметь
+
+- He has a table
+- He had a table
+
+
+## fivth ten verbs
+---
+
+ I | II | III | translate
+---|---|---|---
 hear | heard | heard | слышать
 
 - I hear to funny songs every day
